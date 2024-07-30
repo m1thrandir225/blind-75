@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0EEFFD4B2C590C9400C8EDCC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD4A2C590C9400C8EDCC /* main.swift */; };
+		0EEFFD582C590D2D00C8EDCC /* TwoSumProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD572C590D2D00C8EDCC /* TwoSumProblemTest.swift */; };
+		0EEFFD5F2C590D5100C8EDCC /* TwoSumProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD5E2C590D5100C8EDCC /* TwoSumProblem.swift */; };
+		0EEFFD602C590E1C00C8EDCC /* TwoSumProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD5E2C590D5100C8EDCC /* TwoSumProblem.swift */; };
+		0EEFFD632C590F6D00C8EDCC /* BuySellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD622C590F6D00C8EDCC /* BuySellStock.swift */; };
+		0EEFFD652C592B3900C8EDCC /* BuySellStockProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD642C592B3900C8EDCC /* BuySellStockProblemTest.swift */; };
+		0EEFFD672C592BA300C8EDCC /* BuySellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD622C590F6D00C8EDCC /* BuySellStock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +31,22 @@
 /* Begin PBXFileReference section */
 		0EEFFD472C590C9400C8EDCC /* blind-75 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "blind-75"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEFFD4A2C590C9400C8EDCC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0EEFFD552C590D2D00C8EDCC /* blind-75-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blind-75-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEFFD572C590D2D00C8EDCC /* TwoSumProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumProblemTest.swift; sourceTree = "<group>"; };
+		0EEFFD5E2C590D5100C8EDCC /* TwoSumProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumProblem.swift; sourceTree = "<group>"; };
+		0EEFFD622C590F6D00C8EDCC /* BuySellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellStock.swift; sourceTree = "<group>"; };
+		0EEFFD642C592B3900C8EDCC /* BuySellStockProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellStockProblemTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0EEFFD442C590C9400C8EDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEFFD522C590D2D00C8EDCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0EEFFD492C590C9400C8EDCC /* blind-75 */,
+				0EEFFD562C590D2D00C8EDCC /* blind-75-tests */,
 				0EEFFD482C590C9400C8EDCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				0EEFFD472C590C9400C8EDCC /* blind-75 */,
+				0EEFFD552C590D2D00C8EDCC /* blind-75-tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +78,19 @@
 			isa = PBXGroup;
 			children = (
 				0EEFFD4A2C590C9400C8EDCC /* main.swift */,
+				0EEFFD5E2C590D5100C8EDCC /* TwoSumProblem.swift */,
+				0EEFFD622C590F6D00C8EDCC /* BuySellStock.swift */,
 			);
 			path = "blind-75";
+			sourceTree = "<group>";
+		};
+		0EEFFD562C590D2D00C8EDCC /* blind-75-tests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEFFD572C590D2D00C8EDCC /* TwoSumProblemTest.swift */,
+				0EEFFD642C592B3900C8EDCC /* BuySellStockProblemTest.swift */,
+			);
+			path = "blind-75-tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +113,23 @@
 			productReference = 0EEFFD472C590C9400C8EDCC /* blind-75 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0EEFFD542C590D2D00C8EDCC /* blind-75-tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEFFD592C590D2D00C8EDCC /* Build configuration list for PBXNativeTarget "blind-75-tests" */;
+			buildPhases = (
+				0EEFFD512C590D2D00C8EDCC /* Sources */,
+				0EEFFD522C590D2D00C8EDCC /* Frameworks */,
+				0EEFFD532C590D2D00C8EDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blind-75-tests";
+			productName = "blind-75-tests";
+			productReference = 0EEFFD552C590D2D00C8EDCC /* blind-75-tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +141,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					0EEFFD462C590C9400C8EDCC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0EEFFD542C590D2D00C8EDCC = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -111,16 +162,40 @@
 			projectRoot = "";
 			targets = (
 				0EEFFD462C590C9400C8EDCC /* blind-75 */,
+				0EEFFD542C590D2D00C8EDCC /* blind-75-tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EEFFD532C590D2D00C8EDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EEFFD432C590C9400C8EDCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EEFFD5F2C590D5100C8EDCC /* TwoSumProblem.swift in Sources */,
+				0EEFFD632C590F6D00C8EDCC /* BuySellStock.swift in Sources */,
 				0EEFFD4B2C590C9400C8EDCC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEFFD512C590D2D00C8EDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEFFD602C590E1C00C8EDCC /* TwoSumProblem.swift in Sources */,
+				0EEFFD672C592BA300C8EDCC /* BuySellStock.swift in Sources */,
+				0EEFFD652C592B3900C8EDCC /* BuySellStockProblemTest.swift in Sources */,
+				0EEFFD582C590D2D00C8EDCC /* TwoSumProblemTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +342,36 @@
 			};
 			name = Release;
 		};
+		0EEFFD5A2C590D2D00C8EDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVX857Q763;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sebastijanzindl.blind-75-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0EEFFD5B2C590D2D00C8EDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVX857Q763;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sebastijanzindl.blind-75-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +389,15 @@
 			buildConfigurations = (
 				0EEFFD4F2C590C9400C8EDCC /* Debug */,
 				0EEFFD502C590C9400C8EDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEFFD592C590D2D00C8EDCC /* Build configuration list for PBXNativeTarget "blind-75-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEFFD5A2C590D2D00C8EDCC /* Debug */,
+				0EEFFD5B2C590D2D00C8EDCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
