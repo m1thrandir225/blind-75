@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB7A7502C5A7C97002EFF79 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */; };
+		0EB7A7522C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A7512C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift */; };
+		0EB7A7532C5A7CF4002EFF79 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */; };
 		0EEFFD4B2C590C9400C8EDCC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD4A2C590C9400C8EDCC /* main.swift */; };
 		0EEFFD582C590D2D00C8EDCC /* TwoSumProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD572C590D2D00C8EDCC /* TwoSumProblemTest.swift */; };
 		0EEFFD5F2C590D5100C8EDCC /* TwoSumProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFD5E2C590D5100C8EDCC /* TwoSumProblem.swift */; };
@@ -29,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		0EB7A7512C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateProblemTest.swift; sourceTree = "<group>"; };
 		0EEFFD472C590C9400C8EDCC /* blind-75 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "blind-75"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEFFD4A2C590C9400C8EDCC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0EEFFD552C590D2D00C8EDCC /* blind-75-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blind-75-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +85,7 @@
 				0EEFFD4A2C590C9400C8EDCC /* main.swift */,
 				0EEFFD5E2C590D5100C8EDCC /* TwoSumProblem.swift */,
 				0EEFFD622C590F6D00C8EDCC /* BuySellStock.swift */,
+				0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */,
 			);
 			path = "blind-75";
 			sourceTree = "<group>";
@@ -89,6 +95,7 @@
 			children = (
 				0EEFFD572C590D2D00C8EDCC /* TwoSumProblemTest.swift */,
 				0EEFFD642C592B3900C8EDCC /* BuySellStockProblemTest.swift */,
+				0EB7A7512C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift */,
 			);
 			path = "blind-75-tests";
 			sourceTree = "<group>";
@@ -182,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB7A7502C5A7C97002EFF79 /* ContainsDuplicate.swift in Sources */,
 				0EEFFD5F2C590D5100C8EDCC /* TwoSumProblem.swift in Sources */,
 				0EEFFD632C590F6D00C8EDCC /* BuySellStock.swift in Sources */,
 				0EEFFD4B2C590C9400C8EDCC /* main.swift in Sources */,
@@ -192,9 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB7A7532C5A7CF4002EFF79 /* ContainsDuplicate.swift in Sources */,
 				0EEFFD602C590E1C00C8EDCC /* TwoSumProblem.swift in Sources */,
 				0EEFFD672C592BA300C8EDCC /* BuySellStock.swift in Sources */,
 				0EEFFD652C592B3900C8EDCC /* BuySellStockProblemTest.swift in Sources */,
+				0EB7A7522C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift in Sources */,
 				0EEFFD582C590D2D00C8EDCC /* TwoSumProblemTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
