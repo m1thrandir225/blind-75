@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3867882C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */; };
+		0E3867892C5BC09A00E6250C /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */; };
+		0E38678B2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38678A2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift */; };
 		0EB7A7502C5A7C97002EFF79 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */; };
 		0EB7A7522C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A7512C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift */; };
 		0EB7A7532C5A7CF4002EFF79 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */; };
@@ -32,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
+		0E38678A2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelfProblemTest.swift; sourceTree = "<group>"; };
 		0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		0EB7A7512C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateProblemTest.swift; sourceTree = "<group>"; };
 		0EEFFD472C590C9400C8EDCC /* blind-75 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "blind-75"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +91,7 @@
 				0EEFFD5E2C590D5100C8EDCC /* TwoSumProblem.swift */,
 				0EEFFD622C590F6D00C8EDCC /* BuySellStock.swift */,
 				0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */,
+				0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */,
 			);
 			path = "blind-75";
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				0EEFFD572C590D2D00C8EDCC /* TwoSumProblemTest.swift */,
 				0EEFFD642C592B3900C8EDCC /* BuySellStockProblemTest.swift */,
 				0EB7A7512C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift */,
+				0E38678A2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift */,
 			);
 			path = "blind-75-tests";
 			sourceTree = "<group>";
@@ -192,6 +199,7 @@
 				0EB7A7502C5A7C97002EFF79 /* ContainsDuplicate.swift in Sources */,
 				0EEFFD5F2C590D5100C8EDCC /* TwoSumProblem.swift in Sources */,
 				0EEFFD632C590F6D00C8EDCC /* BuySellStock.swift in Sources */,
+				0E3867882C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift in Sources */,
 				0EEFFD4B2C590C9400C8EDCC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +211,9 @@
 				0EB7A7532C5A7CF4002EFF79 /* ContainsDuplicate.swift in Sources */,
 				0EEFFD602C590E1C00C8EDCC /* TwoSumProblem.swift in Sources */,
 				0EEFFD672C592BA300C8EDCC /* BuySellStock.swift in Sources */,
+				0E3867892C5BC09A00E6250C /* ProductOfArrayExceptSelf.swift in Sources */,
 				0EEFFD652C592B3900C8EDCC /* BuySellStockProblemTest.swift in Sources */,
+				0E38678B2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift in Sources */,
 				0EB7A7522C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift in Sources */,
 				0EEFFD582C590D2D00C8EDCC /* TwoSumProblemTest.swift in Sources */,
 			);
