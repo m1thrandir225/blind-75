@@ -10,6 +10,9 @@
 		0E3867882C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */; };
 		0E3867892C5BC09A00E6250C /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */; };
 		0E38678B2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E38678A2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift */; };
+		0E6021D42C5EC08400EFC2D6 /* MaximumProductSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6021D32C5EC08400EFC2D6 /* MaximumProductSubArray.swift */; };
+		0E6021D62C5EC09200EFC2D6 /* MaximumProductSubArrayProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6021D52C5EC09200EFC2D6 /* MaximumProductSubArrayProblemTest.swift */; };
+		0E6021D72C5EC0D500EFC2D6 /* MaximumProductSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6021D32C5EC08400EFC2D6 /* MaximumProductSubArray.swift */; };
 		0EAAC4BD2C5CFD5200D9067B /* MaximumSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAAC4BC2C5CFD5200D9067B /* MaximumSubArray.swift */; };
 		0EAAC4BF2C5CFD7000D9067B /* MaximumSubArrayProblemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAAC4BE2C5CFD7000D9067B /* MaximumSubArrayProblemTest.swift */; };
 		0EAAC4C02C5CFD9900D9067B /* MaximumSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAAC4BC2C5CFD5200D9067B /* MaximumSubArray.swift */; };
@@ -40,6 +43,8 @@
 /* Begin PBXFileReference section */
 		0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
 		0E38678A2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelfProblemTest.swift; sourceTree = "<group>"; };
+		0E6021D32C5EC08400EFC2D6 /* MaximumProductSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductSubArray.swift; sourceTree = "<group>"; };
+		0E6021D52C5EC09200EFC2D6 /* MaximumProductSubArrayProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductSubArrayProblemTest.swift; sourceTree = "<group>"; };
 		0EAAC4BC2C5CFD5200D9067B /* MaximumSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubArray.swift; sourceTree = "<group>"; };
 		0EAAC4BE2C5CFD7000D9067B /* MaximumSubArrayProblemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubArrayProblemTest.swift; sourceTree = "<group>"; };
 		0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 				0EB7A74F2C5A7C97002EFF79 /* ContainsDuplicate.swift */,
 				0E3867872C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift */,
 				0EAAC4BC2C5CFD5200D9067B /* MaximumSubArray.swift */,
+				0E6021D32C5EC08400EFC2D6 /* MaximumProductSubArray.swift */,
 			);
 			path = "blind-75";
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 				0EB7A7512C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift */,
 				0E38678A2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift */,
 				0EAAC4BE2C5CFD7000D9067B /* MaximumSubArrayProblemTest.swift */,
+				0E6021D52C5EC09200EFC2D6 /* MaximumProductSubArrayProblemTest.swift */,
 			);
 			path = "blind-75-tests";
 			sourceTree = "<group>";
@@ -207,6 +214,7 @@
 				0EEFFD5F2C590D5100C8EDCC /* TwoSumProblem.swift in Sources */,
 				0EEFFD632C590F6D00C8EDCC /* BuySellStock.swift in Sources */,
 				0EAAC4BD2C5CFD5200D9067B /* MaximumSubArray.swift in Sources */,
+				0E6021D42C5EC08400EFC2D6 /* MaximumProductSubArray.swift in Sources */,
 				0E3867882C5BC04D00E6250C /* ProductOfArrayExceptSelf.swift in Sources */,
 				0EEFFD4B2C590C9400C8EDCC /* main.swift in Sources */,
 			);
@@ -216,12 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6021D62C5EC09200EFC2D6 /* MaximumProductSubArrayProblemTest.swift in Sources */,
 				0EB7A7532C5A7CF4002EFF79 /* ContainsDuplicate.swift in Sources */,
 				0EEFFD602C590E1C00C8EDCC /* TwoSumProblem.swift in Sources */,
 				0EEFFD672C592BA300C8EDCC /* BuySellStock.swift in Sources */,
 				0E3867892C5BC09A00E6250C /* ProductOfArrayExceptSelf.swift in Sources */,
 				0EAAC4BF2C5CFD7000D9067B /* MaximumSubArrayProblemTest.swift in Sources */,
 				0EEFFD652C592B3900C8EDCC /* BuySellStockProblemTest.swift in Sources */,
+				0E6021D72C5EC0D500EFC2D6 /* MaximumProductSubArray.swift in Sources */,
 				0E38678B2C5BC0AB00E6250C /* ProductOfArrayExceptSelfProblemTest.swift in Sources */,
 				0EB7A7522C5A7CE4002EFF79 /* ContainsDuplicateProblemTest.swift in Sources */,
 				0EEFFD582C590D2D00C8EDCC /* TwoSumProblemTest.swift in Sources */,
