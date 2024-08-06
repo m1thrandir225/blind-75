@@ -18,14 +18,13 @@ class MinimumInRotatedSortedArray {
 				result = min(result, nums[left])
 				break;
 			}
-			
 			let middle = (left + right) / 2
 			result = min(result, nums[middle])
 			
 			if nums[middle] >= nums[left] {
 				left = middle + 1
 			} else {
-				right = middle - 1
+				right = middle
 			}
 		}
 		return result
