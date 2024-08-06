@@ -27,11 +27,13 @@ class ThreeSum {
 				} else {
 					result.append([sortedNums[i], sortedNums[j], sortedNums[k]])
 					j += 1
+					
+					while sortedNums[j] == sortedNums[j-1] && j < k {
+						j += 1
+					}
 				}
 				
-				while sortedNums[j] == sortedNums[j-1] && j < k {
-					j += 1
-				}
+				
 			}
 		}
 		
